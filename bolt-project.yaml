@@ -1,3 +1,7 @@
 ---
 name: helix_iplm_adm
-modules: []
+modulepath:
+- ./modules
+- ./site-modules
+modules:
+- puppetlabs/facts
